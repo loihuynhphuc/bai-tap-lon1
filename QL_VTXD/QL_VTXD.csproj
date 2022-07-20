@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F6320DBB-B163-4BED-BC86-D99B24640A9F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QL_VTXD</RootNamespace>
+    <AssemblyName>QL_VTXD</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frm_Dangnhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Dangnhap.Designer.cs">
+      <DependentUpon>frm_Dangnhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DoiMK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DoiMK.Designer.cs">
+      <DependentUpon>frm_DoiMK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_HDX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_HDX.Designer.cs">
+      <DependentUpon>frm_HDX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Hoadon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Hoadon.Designer.cs">
+      <DependentUpon>frm_Hoadon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Main.Designer.cs">
+      <DependentUpon>frm_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_phieunhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_phieunhap.Designer.cs">
+      <DependentUpon>frm_phieunhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_rphodon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_rphodon.Designer.cs">
+      <DependentUpon>frm_rphodon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_rp_phieunhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_rp_phieunhap.Designer.cs">
+      <DependentUpon>frm_rp_phieunhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_taoTK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_taoTK.Designer.cs">
+      <DependentUpon>frm_taoTK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_themkh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_themkh.Designer.cs">
+      <DependentUpon>frm_themkh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QUANLYKHODataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QUANLYKHODataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QUANLYKHODataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QUANLYKHODataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QUANLYKHODataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QUANLYKHODataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QUANLYKHODataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QUANLYKHODataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QUANLYKHODataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QUANLYKHODataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QUANLYKHODataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QUANLYKHODataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QUANLYKHODataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QUANLYKHODataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QUANLYKHODataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QUANLYKHODataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QUANLYKHODataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QUANLYKHODataSet8.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frm_Dangnhap.resx">
+      <DependentUpon>frm_Dangnhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DoiMK.resx">
+      <DependentUpon>frm_DoiMK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_HDX.resx">
+      <DependentUpon>frm_HDX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Hoadon.resx">
+      <DependentUpon>frm_Hoadon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Main.resx">
+      <DependentUpon>frm_Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_phieunhap.resx">
+      <DependentUpon>frm_phieunhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_rphodon.resx">
+      <DependentUpon>frm_rphodon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_rp_phieunhap.resx">
+      <DependentUpon>frm_rp_phieunhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_taoTK.resx">
+      <DependentUpon>frm_taoTK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_themkh.resx">
+      <DependentUpon>frm_themkh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rp_HDX.rdlc" />
+    <EmbeddedResource Include="RP_HOADON.rdlc" />
+    <EmbeddedResource Include="Rp_Phieunhap.rdlc" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QUANLYKHODataSet.xsc">
+      <DependentUpon>QUANLYKHODataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QUANLYKHODataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QUANLYKHODataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QUANLYKHODataSet.xss">
+      <DependentUpon>QUANLYKHODataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QUANLYKHODataSet1.xsc">
+      <DependentUpon>QUANLYKHODataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QUANLYKHODataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QUANLYKHODataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QUANLYKHODataSet1.xss">
+      <DependentUpon>QUANLYKHODataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QUANLYKHODataSet10.xsc">
+      <DependentUpon>QUANLYKHODataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="QUANLYKHODataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QUANLYKHODataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QUANLYKHODataSet10.xss">
+      <DependentUpon>QUANLYKHODataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="QUANLYKHODataSet11.xsc">
+      <DependentUpon>QUANLYKHODataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="QUANLYKHODataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QUANLYKHODataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QUANLYKHODataSet11.xss">
+      <DependentUpon>QUANLYKHODataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="QUANLYKHODataSet12.xsc">
+      <DependentUpon>QUANLYKHODataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="QUANLYKHODataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QUANLYKHODataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QUANLYKHODataSet12.xss">
+      <DependentUpon>QUANLYKHODataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="QUANLYKHODataSet2.xsc">
+      <DependentUpon>QUANLYKHODataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="QUANLYKHODataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QUANLYKHODataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QUANLYKHODataSet2.xss">
+      <DependentUpon>QUANLYKHODataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="QUANLYKHODataSet3.xsc">
+      <DependentUpon>QUANLYKHODataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="QUANLYKHODataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QUANLYKHODataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QUANLYKHODataSet3.xss">
+      <DependentUpon>QUANLYKHODataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="QUANLYKHODataSet4.xsc">
+      <DependentUpon>QUANLYKHODataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="QUANLYKHODataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QUANLYKHODataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QUANLYKHODataSet4.xss">
+      <DependentUpon>QUANLYKHODataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="QUANLYKHODataSet8.xsc">
+      <DependentUpon>QUANLYKHODataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="QUANLYKHODataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QUANLYKHODataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QUANLYKHODataSet8.xss">
+      <DependentUpon>QUANLYKHODataSet8.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\THUVIEN\THUVIEN.csproj">
+      <Project>{f939d143-c642-43f3-bf3f-76d97e8c2352}</Project>
+      <Name>THUVIEN</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

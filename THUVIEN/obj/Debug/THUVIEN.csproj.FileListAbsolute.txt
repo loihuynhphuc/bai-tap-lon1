@@ -1,0 +1,5 @@
+E:\Baitaplon\QL_VTXD\THUVIEN\bin\Debug\THUVIEN.dll
+E:\Baitaplon\QL_VTXD\THUVIEN\bin\Debug\THUVIEN.pdb
+E:\Baitaplon\QL_VTXD\THUVIEN\obj\Debug\THUVIEN.csprojResolveAssemblyReference.cache
+E:\Baitaplon\QL_VTXD\THUVIEN\obj\Debug\THUVIEN.dll
+E:\Baitaplon\QL_VTXD\THUVIEN\obj\Debug\THUVIEN.pdb
